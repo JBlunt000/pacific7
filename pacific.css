@@ -14,22 +14,14 @@ header {
 
 h1 {
     text-align: center;
-    padding-top: .5em;
-    font-size: 3em;
-    letter-spacing: 0.25em;
+    font-size: 1.5em;
 }
 
 nav {
-    font-weight: bold;
-    padding-top: .5em;
-    padding-right: .5em;
-    padding-bottom: .5em;
-    float: left;
-    width: 160px;
-    padding: 0;
     font-size: 1.2em;
-    position: fixed;
     z-index: 9999;
+    background-color: #FFFFFF;
+    text-align: center;
 }
 
 h2 {
@@ -69,9 +61,10 @@ main {
     padding-left: 2em;
     padding-right: 2em;
     display: block;
-    background-color: #FFFFFF;
-    margin-left: 170px;
-    overflow: auto;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 #homehero {
@@ -121,13 +114,14 @@ nav a:hover {
 nav ul {
     list-style-type: none;
     padding-left: 1em;
+    flex-direction: column;
+    margin: 0;
+    padding-left: 0;
 }
 
 section {
-    float: left;
-    width: 33%;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-left: .5em;
+    padding-right: .5em;
 }
 
 header a {
@@ -144,4 +138,13 @@ header a:visited {
 
 header a:hover {
     color: #90C7E3;
+}
+
+nav li {
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 1m;
+    padding-right: 1em;
+    width: 100%;
+    border-bottom: 1px solid #ccc;
 }
