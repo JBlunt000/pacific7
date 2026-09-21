@@ -58,13 +58,7 @@ footer {
 
 #wrapper {
     width: 80%;
-    background-image: linear-gradient(to bottom, #FFFFFF, #90C7E3);
     background-color: #FFFFFF;
-    min-width: 960px;
-    max-width: 2048px;
-    margin-right: auto;
-    margin-left: auto;
-    box-shadow: 3px 3px 3px 3px #000000;
 }
 
 h3 {
